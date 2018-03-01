@@ -1,7 +1,83 @@
-################### GPU
-https://wiki.debian.org/NvidiaGraphicsDrivers 
+################### GPU & NVIDIA stuff
+# from https://medium.com/@samir_moussa/battling-through-an-nvidia-gpu-setup-in-the-name-of-machine-learning-c7ebd5b36f87
+# https://wiki.debian.org/NvidiaGraphicsDrivers
+
+# 1: uninstall any existing Nvidia device drivers and CUDA toolkits
+sudo /usr/local/cuda-X.Y/bin/uninstall_cuda_9.0.pl
+sudo /usr/bin/nvidia-uninstall
+sudo apt-get remove --purge nvidia*
+sudo apt-get autoremove
+sudo reboot
+
+# 2: blacklist Nouveau ( OSS graphics device driver for Nvidia cards; placeholder for Nvidia’s proprietary driver)
+# check if output; meaning Nouveau is loaded
+lsmod | grep nouveau
+# the blacklisting:
+sudo nano /etc/modprobe.d/blacklist-nouveau.conf
+# inside blacklist-nouveau.conf
+blacklist nouveau
+options nouveau modeset=0
+ctr-o ctrl-x
+
+# check if any display manager is running
+cat /etc/X11/default-display-manager
+#/etc/X11/xorg.conf 
+
+# disable the X server
+sudo /etc/init.d/gdm3 stop
+# checks
+lspci -vnn | grep VGA -A 12
+lshw -numeric -C display
+lspci -v | less
+# https://wiki.debian.org/HowToIdentifyADevice/PCI
+# in one of these (or similar) set default driver for the main monitor to the integrated graphics driver name
+sudo nano /etc/X11/xorg.conf
+# or
+sudo nano /etc/bumblebee/bumblebee.conf
+ctr-o ctrl-x
+
+# dont install install OpenGL!
+# dont run nvidia-xconfig as it will overwrite X configuration at /etc/X11/xorg.conf or /etc/bumblebee/bumblebee.conf
+
+sudo sh ~/Downloads/cuda_9.0.176_384.81_linux.run
+(... do stuff ...)
+sudo reboot
+
+# final path linking and testing 
+# add to your path in .bashrc (or .zshrc):
+
+export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-<some-version>/lib64\
+  ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+export CUDA_VISIBLE_DEVICES=0
+
+# test the GPU performance:
+
+cd ~/NVIDIA_CUDA-9.0_Samples/1_Utilities/bandwidthTest
+make
+./bandwidthTest
+
+##############n CUDA stuff ?
+
+http://docs.nvidia.com/cuda/cuda-installation-guide-linux/#axzz4VZnqTJ2A
+https://developer.nvidia.com/cudnn
+
+
+
++
+http://forums.system-rescue-cd.org/viewtopic.php?t=5351 
+http://www.supermicro.nl/products/motherboard/xeon/c600/x10srl-f.cfm 
+https://www.supermicro.com/manuals/motherboard/C612/MNL-1585.pdf 
+https://forums.freenas.org/index.php?threads/so-you’ve-decided-to-buy-a-supermicro-x11-board.39549/page-4
++
+
 https://wiki.debian.org/GraphicsCard
 https://www.youtube.com/watch?v=_5RJzZxQ62U
+ 
+lspci | grep -i nvidia
+gcc --version
+echo $EDITOR
+echo $PATH
  
 apt-get update
 apt-get install nvidia-detect
@@ -11,18 +87,7 @@ apt-get install libavcodec-extra
 apt-get install firmware-linux-nonfree
 apt-get install vlc gimp smplayer
 
-
-##############n NVIDIA stuff
-
-lspci | grep -i nvidia
-gcc --version
-echo $EDITOR
-echo $PATH
-
-##############n CUDA stuff
-
-http://docs.nvidia.com/cuda/cuda-installation-guide-linux/#axzz4VZnqTJ2A
-https://developer.nvidia.com/cudnn
+https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=deblocal www.nvidia.com/Download/index.aspx?lang=en-us
 
 
  
