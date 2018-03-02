@@ -2,6 +2,27 @@
 # from https://medium.com/@samir_moussa/battling-through-an-nvidia-gpu-setup-in-the-name-of-machine-learning-c7ebd5b36f87
 # https://wiki.debian.org/NvidiaGraphicsDrivers
 
+#####################################################################################
+sudo mount -t ext4 /dev/sdb1 /mnt/
+cd /mnt/
+sudo nano start0_gpu.txt
+
+# GPU MUMBOJUMBO
+#
+#sudo nano ~/.xinitrc
+#lsmod | grep nouveau
+#cat /etc/X11/openbox/rc.xml
+
+sudo find / -name 'xorg.conf'
+nano /usr/share/doc/xserver-xorg-video-intel/xorg.conf
+
+sudo fdisk -l
+sudo mount -t ext4 /dev/sdb1 /mnt/
+cd /mnt/
+sudo sh cuda_9.1.85_387.26_linux.run
+
+#####################################################################################
+
 # 1: uninstall any existing Nvidia device drivers and CUDA toolkits
 sudo /usr/local/cuda-X.Y/bin/uninstall_cuda_9.0.pl
 sudo /usr/bin/nvidia-uninstall
