@@ -5,6 +5,9 @@
 #####################################################################################
 sudo mount -t ext4 /dev/sdb1 /mnt/
 cd /mnt/
+ 
+# cp -r sdbx files into sdax
+
 sudo nano start0_gpu.txt
 
 # GPU MUMBOJUMBO
