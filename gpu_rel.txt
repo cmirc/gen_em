@@ -2,6 +2,8 @@
 # from https://medium.com/@samir_moussa/battling-through-an-nvidia-gpu-setup-in-the-name-of-machine-learning-c7ebd5b36f87
 # https://wiki.debian.org/NvidiaGraphicsDrivers
 
+Webinar: http://on-demand.gputechconf.com/gtc/2015/webinar/gtc-express-cuDNN-larry-brown.mp4
+
 #####################################################################################
 sudo mount -t ext4 /dev/sdb1 /mnt/
 cd /mnt/
@@ -32,6 +34,8 @@ sudo /usr/bin/nvidia-uninstall
 sudo apt-get remove --purge nvidia*
 sudo apt-get autoremove
 sudo reboot
+
+(https://askubuntu.com/questions/841876/how-to-disable-nouveau-kernel-driver;)
 
 # 2: blacklist Nouveau ( OSS graphics device driver for Nvidia cards; placeholder for Nvidia’s proprietary driver)
 # check if output; meaning Nouveau is loaded
@@ -124,10 +128,9 @@ make
 
 ##############n CUDA stuff ?
 
-http://docs.nvidia.com/cuda/cuda-installation-guide-linux/#axzz4VZnqTJ2A
+https://docs.nvidia.com/cuda/cuda-installation-guide-linux/#axzz4VZnqTJ2A
 https://developer.nvidia.com/cudnn
-
-
+https://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html#ubuntu-x86_64
 
 +
 http://forums.system-rescue-cd.org/viewtopic.php?t=5351 
@@ -152,7 +155,10 @@ apt-get install libavcodec-extra
 apt-get install firmware-linux-nonfree
 apt-get install vlc gimp smplayer
 
-https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=deblocal www.nvidia.com/Download/index.aspx?lang=en-us
+https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=deblocal
 
+www.nvidia.com/Download/index.aspx?lang=en-us
 
- 
+https://medium.com/@samir_moussa/battling-through-an-nvidia-gpu-setup-in-the-name-of-machine-learning-c7ebd5b36f87
+
+http://docs.nvidia.com/deeplearning/sdk/index.html
