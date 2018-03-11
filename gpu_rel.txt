@@ -4,6 +4,8 @@
 
 Webinar: http://on-demand.gputechconf.com/gtc/2015/webinar/gtc-express-cuDNN-larry-brown.mp4
 
+https://www.tensorflow.org/versions/r1.0/install/install_linux#the_url_of_the_tensorflow_python_package
+
 #####################################################################################
 sudo mount -t ext4 /dev/sdb1 /mnt/
 cd /mnt/
