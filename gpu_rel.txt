@@ -3,8 +3,10 @@
 # https://wiki.debian.org/NvidiaGraphicsDrivers
 
 Webinar: http://on-demand.gputechconf.com/gtc/2015/webinar/gtc-express-cuDNN-larry-brown.mp4
-
-https://www.tensorflow.org/versions/r1.0/install/install_linux#the_url_of_the_tensorflow_python_package
+us.download.nvidia.com/XFree86/Linux-x86/340.102/README/supportedchips.html 
+https://packages.debian.org/stretch/nvidia-driver 
+https://wiki.debian.org/NvidiaGraphicsDrivers#Debian_9_.22Stretch.22 
+https://wiki.debian.org/CUDA
 
 #####################################################################################
 sudo mount -t ext4 /dev/sdb1 /mnt/
