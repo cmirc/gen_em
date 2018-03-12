@@ -1,44 +1,12 @@
 #################### Tensorflow
 
 https://www.tensorflow.org/install/install_linux
-
-
-#################### Tensorflow
-
-
-
-sudo pip3 uninstall tensorflow # for Python 3.n
-pip3 install tensorflow-gpu # Python 3.n; GPU support
-
-
-Run a short TensorFlow program
-
-Invoke python from your shell as follows:
-
-
-$ python
-
-Enter the following short program inside the python interactive shell:
-
-# Python
-import tensorflow as tf
-hello = tf.constant('Hello, TensorFlow!')
-sess = tf.Session()
-print(sess.run(hello))
-
-If the system outputs the following, then you are ready to begin writing TensorFlow programs:
-
-Hello, TensorFlow!
-
+https://www.tensorflow.org/versions/r1.0/install/install_linux#the_url_of_the_tensorflow_python_package
 
 
 #################### WAVENET
 
-git clone https://github.com/ibab/tensorflow-wavenet.git
-cd tensorflow-wavenet/
-sudo pip3 install -r requirements.txt
-
-#python3 train.py --data=corpus1 --silence_threshold=0
+https://github.com/ibab/tensorflow-wavenet
 
 https://github.com/ibab/tensorflow-wavenet/issues/140
 https://stackoverflow.com/questions/44766154/are-the-time-to-batch-and-batch-time-functions-of-the-tensorflow-implementation
