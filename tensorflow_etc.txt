@@ -40,8 +40,19 @@ sudo pip3 install -r requirements.txt
 
 #python3 train.py --data=corpus1 --silence_threshold=0
 
-
+https://github.com/ibab/tensorflow-wavenet/issues/140
+https://stackoverflow.com/questions/44766154/are-the-time-to-batch-and-batch-time-functions-of-the-tensorflow-implementation
 https://stackoverflow.com/search?q=wavenet
+https://stackoverflow.com/questions/45046407/breaking-down-the-wavenet-formulas
+https://stackoverflow.com/questions/41679110/how-to-use-tensorflow-wavenet/48302818#48302818
+https://github.com/tomlepaine/fast-wavenet
+
+https://github.com/basveeling/wavenet
+
+https://stackoverflow.com/questions/40216948/what-is-the-right-way-to-do-model-parallelism-in-tensorflow
+https://stackoverflow.com/questions/43359882/how-to-build-tensorflow-speech-recognition-integrated-with-language-model
+https://stackoverflow.com/questions/40918978/training-rnns-on-long-sequences/40922747#40922747
+
 https://stackoverflow.com/questions/48973883/installing-tensorflow-on-gpu
 https://github.com/nakosung/tensorflow-wavenet
 https://github.com/nakosung/wavenet
@@ -55,12 +66,29 @@ https://github.com/ibab/tensorflow-wavenet/issues/193
 https://github.com/ibab/tensorflow-wavenet/issues/180
 https://github.com/ibab/tensorflow-wavenet/issues/47
 https://github.com/ibab/tensorflow-wavenet/issues/124
+https://github.com/ibab/tensorflow-wavenet/issues/265
+https://github.com/ibab/tensorflow-wavenet/issues/266
 https://github.com/ibab/tensorflow-wavenet/issues/117
 https://github.com/ibab/tensorflow-wavenet/issues/301
+https://github.com/ibab/tensorflow-wavenet/issues/99
+https://github.com/ibab/tensorflow-wavenet/issues/98
 
+ 
+https://arxiv.org/abs/1711.10433
+
+https://avdnoord.github.io/homepage/
+
+https://github.com/r9y9/wavenet_vocoder/issues/7
 https://twitter.com/avdnoord/status/933431039179087873
 https://deepmind.com/blog/high-fidelity-speech-synthesis-wavenet/
 https://www.reddit.com/r/MachineLearning/comments/7ev19q/r_highfidelity_speech_synthesis_with_wavenet/ 
-https://github.com/r9y9/wavenet_vocoder/issues/7
+https://www.reddit.com/r/MachineLearning/comments/53ilcr/fast_wavenet_an_efficient_wavenet_generation/
 https://github.com/kensun0/Parallel-Wavenet
+
+
+https://medium.com/@devinplatt/training-wavenet-with-tensorflow-on-aws-b0e2adeb204b
+https://github.com/tensorflow/magenta
+https://stackoverflow.com/questions/43359882/how-to-build-tensorflow-speech-recognition-integrated-with-language-model
+https://stackoverflow.com/questions/48083474/finish-tensorflow-training-in-progress
+https://www.nextplatform.com/2017/10/30/deep-voice-3-ten-million-queries-single-gpu-server/
 
