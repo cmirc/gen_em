@@ -39,3 +39,28 @@ cd tensorflow-wavenet/
 sudo pip3 install -r requirements.txt
 
 #python3 train.py --data=corpus1 --silence_threshold=0
+
+
+https://stackoverflow.com/search?q=wavenet
+https://stackoverflow.com/questions/48973883/installing-tensorflow-on-gpu
+https://github.com/nakosung/tensorflow-wavenet
+https://github.com/nakosung/wavenet
+https://www.tensorflow.org/programmers_guide/using_gpu
+
+https://github.com/ibab/tensorflow-wavenet/issues/180
+https://github.com/ibab/tensorflow-wavenet/issues/195
+https://github.com/ibab/tensorflow-wavenet/issues/301
+https://github.com/ibab/tensorflow-wavenet/issues/13
+https://github.com/ibab/tensorflow-wavenet/issues/193
+https://github.com/ibab/tensorflow-wavenet/issues/180
+https://github.com/ibab/tensorflow-wavenet/issues/47
+https://github.com/ibab/tensorflow-wavenet/issues/124
+https://github.com/ibab/tensorflow-wavenet/issues/117
+https://github.com/ibab/tensorflow-wavenet/issues/301
+
+https://twitter.com/avdnoord/status/933431039179087873
+https://deepmind.com/blog/high-fidelity-speech-synthesis-wavenet/
+https://www.reddit.com/r/MachineLearning/comments/7ev19q/r_highfidelity_speech_synthesis_with_wavenet/ 
+https://github.com/r9y9/wavenet_vocoder/issues/7
+https://github.com/kensun0/Parallel-Wavenet
+
