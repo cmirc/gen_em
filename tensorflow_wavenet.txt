@@ -30,6 +30,10 @@ https://github.com/nakosung/tensorflow-wavenet
 https://github.com/nakosung/wavenet
 https://www.tensorflow.org/programmers_guide/using_gpu
 
+https://stackoverflow.com/questions/44343081/tensorflow-summaries-with-threading
+
+https://github.com/ibab/tensorflow-wavenet/issues/322 
+https://github.com/ibab/tensorflow-wavenet/issues/98
 https://github.com/ibab/tensorflow-wavenet/issues/140
 https://github.com/ibab/tensorflow-wavenet/issues/180
 https://github.com/ibab/tensorflow-wavenet/issues/195
@@ -44,7 +48,6 @@ https://github.com/ibab/tensorflow-wavenet/issues/266
 https://github.com/ibab/tensorflow-wavenet/issues/117
 https://github.com/ibab/tensorflow-wavenet/issues/301
 https://github.com/ibab/tensorflow-wavenet/issues/99
-https://github.com/ibab/tensorflow-wavenet/issues/98
 
 https://arxiv.org/abs/1711.10433
 https://arxiv.org/pdf/1712.05884.pdf
