@@ -3,12 +3,14 @@
 https://www.tensorflow.org/install/install_linux
 https://www.tensorflow.org/versions/r1.0/install/install_linux#the_url_of_the_tensorflow_python_package
 
+from source:
+https://www.youtube.com/watch?v=1Gd6e5BLkwo
+
 
 #################### WAVENET
 
 https://github.com/ibab/tensorflow-wavenet
 
-https://github.com/ibab/tensorflow-wavenet/issues/140
 https://stackoverflow.com/questions/44766154/are-the-time-to-batch-and-batch-time-functions-of-the-tensorflow-implementation
 https://stackoverflow.com/search?q=wavenet
 https://stackoverflow.com/questions/45046407/breaking-down-the-wavenet-formulas
@@ -26,6 +28,7 @@ https://github.com/nakosung/tensorflow-wavenet
 https://github.com/nakosung/wavenet
 https://www.tensorflow.org/programmers_guide/using_gpu
 
+https://github.com/ibab/tensorflow-wavenet/issues/140
 https://github.com/ibab/tensorflow-wavenet/issues/180
 https://github.com/ibab/tensorflow-wavenet/issues/195
 https://github.com/ibab/tensorflow-wavenet/issues/301
