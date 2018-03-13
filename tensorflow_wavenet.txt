@@ -46,8 +46,8 @@ https://github.com/ibab/tensorflow-wavenet/issues/301
 https://github.com/ibab/tensorflow-wavenet/issues/99
 https://github.com/ibab/tensorflow-wavenet/issues/98
 
- 
 https://arxiv.org/abs/1711.10433
+https://arxiv.org/pdf/1712.05884.pdf
 
 https://avdnoord.github.io/homepage/
 
