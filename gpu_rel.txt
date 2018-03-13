@@ -1,6 +1,11 @@
 ################### GPU & NVIDIA stuff
-# from https://medium.com/@samir_moussa/battling-through-an-nvidia-gpu-setup-in-the-name-of-machine-learning-c7ebd5b36f87
-# https://wiki.debian.org/NvidiaGraphicsDrivers
+
++ debian 9
+https://github.com/dasGringuen/debian9-install
+(worked w/o most of the above for me!)
+
+from https://medium.com/@samir_moussa/battling-through-an-nvidia-gpu-setup-in-the-name-of-machine-learning-c7ebd5b36f87
+https://wiki.debian.org/NvidiaGraphicsDrivers
 
 Webinar: http://on-demand.gputechconf.com/gtc/2015/webinar/gtc-express-cuDNN-larry-brown.mp4
 us.download.nvidia.com/XFree86/Linux-x86/340.102/README/supportedchips.html 
