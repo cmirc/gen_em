@@ -6,6 +6,8 @@ https://www.tensorflow.org/versions/r1.0/install/install_linux#the_url_of_the_te
 from source:
 https://www.youtube.com/watch?v=1Gd6e5BLkwo
 
+https://github.com/snipsco/tensorflow-build 
+
 
 #################### WAVENET
 
