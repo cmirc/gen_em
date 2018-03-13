@@ -8,28 +8,22 @@ https://packages.debian.org/stretch/nvidia-driver
 https://wiki.debian.org/NvidiaGraphicsDrivers#Debian_9_.22Stretch.22 
 https://wiki.debian.org/CUDA
 
+developer.download.nvidia.com/compute/cuda/6_0/rel/docs/CUDA_Getting_Started_Linux.pdf 
+http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#pre-installation-actions
+
+cuda wget:
+https://gist.github.com/pajayrao/306b41661c02b880105c4d5c577cadbd
+
+
+developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/ 
+https://github.com/snipsco/tensorflow-build 
+https://github.com/dasGringuen/debian9-install
+
 #####################################################################################
-sudo mount -t ext4 /dev/sdb1 /mnt/
-cd /mnt/
- 
 # cp -r sdbx files into sdax
-
-sudo nano start0_gpu.txt
-
-# GPU MUMBOJUMBO
-#
-#sudo nano ~/.xinitrc
-#lsmod | grep nouveau
 #cat /etc/X11/openbox/rc.xml
-
 sudo find / -name 'xorg.conf'
 nano /usr/share/doc/xserver-xorg-video-intel/xorg.conf
-
-sudo fdisk -l
-sudo mount -t ext4 /dev/sdb1 /mnt/
-cd /mnt/
-sudo sh cuda_9.1.85_387.26_linux.run
-
 #####################################################################################
 
 # 1: uninstall any existing Nvidia device drivers and CUDA toolkits
@@ -41,22 +35,11 @@ sudo reboot
 
 (https://askubuntu.com/questions/841876/how-to-disable-nouveau-kernel-driver;)
 
-# 2: blacklist Nouveau ( OSS graphics device driver for Nvidia cards; placeholder for Nvidia’s proprietary driver)
-# check if output; meaning Nouveau is loaded
-lsmod | grep nouveau
-# the blacklisting:
-sudo nano /etc/modprobe.d/blacklist-nouveau.conf
-# inside blacklist-nouveau.conf
-blacklist nouveau
-options nouveau modeset=0
-ctr-o ctrl-x
-
 # check if any display manager is running
 # cat /etc/X11/default-display-manager # not working
 # /etc/X11/xorg.conf 
 sudo find / -name 'xorg.conf'
 /usr/share/doc/xserver-xorg-video-intel/xorg.conf
-
 
 # disable the X server
 sudo /etc/init.d/gdm3 stop
@@ -74,57 +57,15 @@ ctr-o ctrl-x
 # dont install install OpenGL!
 # dont run nvidia-xconfig as it will overwrite X configuration at /etc/X11/xorg.conf or /etc/bumblebee/bumblebee.conf
 
-sudo sh ~/Downloads/cuda_9.0.176_384.81_linux.run
-(... do stuff ...)
-
 Description
-
-The NVIDIA CUDA Toolkit provides command-line and graphical
-tools for building, debugging and optimizing the performance
-of applications accelerated by NVIDIA GPUs, runtime and math
-libraries, and documentation including programming guides,
-user manuals, and API references.
-
-Default Install Location of CUDA Toolkit
-Linux platform:
 /usr/local/cuda-#.#
 
-This package includes over 100+ CUDA examples that demonstrate
-various CUDA programming principles, and efficient CUDA
-implementation of algorithms in specific application domains.
-
-Default Install Location of CUDA Samples
-Linux platform:
-/usr/local/cuda-#.#/samples
-and
-$HOME/NVIDIA_CUDA-#.#_Samples
-
 https://github.com/openai/openai-gemm/blob/master/LICENSE
-
-Toolkit Location
- [ default is /usr/local/cuda-9.1 ]
- Do you want to install a symbolic link at /usr/local/cuda?
- 
-CUDA Samples Location
- [ default is /home/frank 
- Logfile is /tmp/cuda_install_12352.log
-
-
-sudo reboot
-
-
-
-
-
-# final path linking and testing 
-# add to your path in .bashrc (or .zshrc):
 
 export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-<some-version>/lib64\
   ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 export CUDA_VISIBLE_DEVICES=0
-
-# test the GPU performance:
 
 cd ~/NVIDIA_CUDA-9.0_Samples/1_Utilities/bandwidthTest
 make
@@ -136,12 +77,10 @@ https://docs.nvidia.com/cuda/cuda-installation-guide-linux/#axzz4VZnqTJ2A
 https://developer.nvidia.com/cudnn
 https://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html#ubuntu-x86_64
 
-+
 http://forums.system-rescue-cd.org/viewtopic.php?t=5351 
 http://www.supermicro.nl/products/motherboard/xeon/c600/x10srl-f.cfm 
 https://www.supermicro.com/manuals/motherboard/C612/MNL-1585.pdf 
 https://forums.freenas.org/index.php?threads/so-you’ve-decided-to-buy-a-supermicro-x11-board.39549/page-4
-+
 
 https://wiki.debian.org/GraphicsCard
 https://www.youtube.com/watch?v=_5RJzZxQ62U
