@@ -1,22 +1,19 @@
 
 https://github.com/ROCmSoftwarePlatform/hiptensorflow
-
+https://github.com/hughperkins/coriander
+http://timdettmers.com/2017/12/21/deep-learning-hardware-limbo/
 https://medium.com/intuitionmachine/amds-open-source-deep-learning-strategy-14c228be6248
 
+https://www.xcelerit.com/computing-benchmarks/insights/benchmarks-deep-learning-nvidia-p100-vs-v100-gpu/ 
+https://www.rockpapershotgun.com/2018/01/31/amd-radeon-vega-rx-64-review-2/
 https://blog.slavv.com/picking-a-gpu-for-deep-learning-3d4795c273b9
 
 https://stackoverflow.com/questions/47148514/tensorflow-cpu-choice-avx-512-amd-intel
-
 https://stackoverflow.com/questions/44490557/failed-to-setting-up-tensorflow-with-opencl-using-sycl
-
 https://stackoverflow.com/questions/37892784/using-keras-tensorflow-with-amd-gpu
-
 https://linustechtips.com/main/topic/790370-machine-learning-on-rx-vega/
 
-https://github.com/hughperkins/coriander
-
-http://timdettmers.com/2017/12/21/deep-learning-hardware-limbo/
-
 compile opencl:
-
 https://www.youtube.com/watch?v=PHIyNiaD2fU
+
+https://hardwarerecs.stackexchange.com/users/7991/marc1011
