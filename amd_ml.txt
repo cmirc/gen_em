@@ -1,4 +1,5 @@
 
+https://medium.com/intuitionmachine/building-a-50-teraflops-amd-vega-deep-learning-box-for-under-3k-ebdd60d4a93c
 https://github.com/ROCmSoftwarePlatform/hiptensorflow
 https://github.com/hughperkins/coriander
 http://timdettmers.com/2017/12/21/deep-learning-hardware-limbo/
