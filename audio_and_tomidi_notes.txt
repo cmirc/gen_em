@@ -1,5 +1,8 @@
 
 
+conversion:
+https://superuser.com/questions/23930/how-to-decode-aac-m4a-audio-files-into-wav
+
 ## WaoN
 
 sudo apt-get install libfftw3-dev libsndfile1-dev
