@@ -14,13 +14,17 @@ http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#pre-install
 cuda wget:
 https://gist.github.com/pajayrao/306b41661c02b880105c4d5c577cadbd
 
+https://github.com/tensorflow/tensorflow/issues/15604
 
 developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/ 
 https://github.com/dasGringuen/debian9-install
 
+https://github.com/tensorflow/tensorflow/issues/16214
 https://gist.github.com/8enmann/931ec2a9dc45fde871d2139a7d1f2d78 
 https://askubuntu.com/questions/995969/error-install-nvidia-387-error-bad-return-status-for-module-build-on-kernel 
 https://unix.stackexchange.com/questions/218163/how-to-install-cuda-toolkit-7-8-9-on-debian-8-jessie-or-9-stretch
+
+https://github.com/wookayin/gpustat
 
 #####################################################################################
 # cp -r sdbx files into sdax
