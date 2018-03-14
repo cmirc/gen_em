@@ -5,8 +5,8 @@ https://superuser.com/questions/23930/how-to-decode-aac-m4a-audio-files-into-wav
 
 ## WaoN
 
-sudo apt-get install libfftw3-dev libsndfile1-dev
-sudo apt-get install lsndfile fftw3-dev libc6-dev-i386
+sagi libfftw3-dev libsndfile1-dev lsndfile fftw3-dev libc6-dev-i386 
+sagi libao-dev libsamplerate0-dev libgtk2.0-dev libncurses5-dev
 
 git clone https://github.com/kichiki/WaoN.git
 cd WaoN
