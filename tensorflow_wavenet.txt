@@ -52,6 +52,12 @@ https://github.com/ibab/tensorflow-wavenet/issues/117
 https://github.com/ibab/tensorflow-wavenet/issues/301
 https://github.com/ibab/tensorflow-wavenet/issues/99
 
+
+https://stackoverflow.com/questions/39983947/tensorflow-delay-variable-over-training-steps 
+https://stackoverflow.com/questions/38958737/tensorflow-training-got-stuck-after-some-steps-how-to-investigate
+https://stackoverflow.com/questions/48083474/finish-tensorflow-training-in-progress
+
+
 https://arxiv.org/abs/1711.10433
 https://arxiv.org/pdf/1712.05884.pdf
 
