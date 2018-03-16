@@ -31,6 +31,13 @@ https://unix.stackexchange.com/questions/218163/how-to-install-cuda-toolkit-7-8-
 
 https://github.com/wookayin/gpustat
 
+
+http://yaroslavvb.blogspot.nl
+
+https://blog.slavv.com/picking-a-gpu-for-deep-learning-3d4795c273b9
+
+https://www.pugetsystems.com/labs/hpc/TitanXp-vs-GTX1080Ti-for-Machine-Learning-937/
+
 #####################################################################################
 # cp -r sdbx files into sdax
 #cat /etc/X11/openbox/rc.xml
