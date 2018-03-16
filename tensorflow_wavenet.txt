@@ -9,6 +9,7 @@ https://www.youtube.com/watch?v=1Gd6e5BLkwo
 https://github.com/snipsco/tensorflow-build 
 
 https://www.tensorflow.org/programmers_guide/using_gpu#using_multiple_gpus
+https://github.com/ibab/tensorflow-wavenet/issues/140
 
 #################### WAVENET
 
