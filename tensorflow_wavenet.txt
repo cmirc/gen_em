@@ -34,6 +34,7 @@ https://www.tensorflow.org/programmers_guide/using_gpu
 
 https://stackoverflow.com/questions/44343081/tensorflow-summaries-with-threading
 
+https://github.com/ibab/tensorflow-wavenet/issues/218
 https://github.com/ibab/tensorflow-wavenet/issues/322 
 https://github.com/ibab/tensorflow-wavenet/issues/98
 https://github.com/ibab/tensorflow-wavenet/issues/140
