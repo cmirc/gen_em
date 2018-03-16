@@ -31,12 +31,18 @@ https://unix.stackexchange.com/questions/218163/how-to-install-cuda-toolkit-7-8-
 
 https://github.com/wookayin/gpustat
 
+https://stackoverflow.com/users/419116/yaroslav-bulatov 
+https://stackoverflow.com/questions/36838770/how-to-interpret-tensorflow-output/36850019#36850019
 
 http://yaroslavvb.blogspot.nl
 
 https://blog.slavv.com/picking-a-gpu-for-deep-learning-3d4795c273b9
 
 https://www.pugetsystems.com/labs/hpc/TitanXp-vs-GTX1080Ti-for-Machine-Learning-937/
+
+
+https://github.com/soumith/convnet-benchmarks
+
 
 #####################################################################################
 # cp -r sdbx files into sdax
