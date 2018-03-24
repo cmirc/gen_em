@@ -23,6 +23,7 @@ https://github.com/tomlepaine/fast-wavenet
 
 https://github.com/basveeling/wavenet
 
+
 https://stackoverflow.com/questions/40216948/what-is-the-right-way-to-do-model-parallelism-in-tensorflow
 https://stackoverflow.com/questions/43359882/how-to-build-tensorflow-speech-recognition-integrated-with-language-model
 https://stackoverflow.com/questions/40918978/training-rnns-on-long-sequences/40922747#40922747
@@ -81,4 +82,6 @@ https://github.com/tensorflow/magenta
 https://stackoverflow.com/questions/43359882/how-to-build-tensorflow-speech-recognition-integrated-with-language-model
 https://stackoverflow.com/questions/48083474/finish-tensorflow-training-in-progress
 https://www.nextplatform.com/2017/10/30/deep-voice-3-ten-million-queries-single-gpu-server/
+
+https://github.com/santy311/deeplearning.ai-course-1
 
