@@ -1,5 +1,11 @@
 ################### GPU & NVIDIA stuff
 
+# MULTI GPY
+https://stackoverflow.com/questions/13781738/how-does-cuda-assign-device-ids-to-gpus/18696344#18696344
+
+
+
+
 + debian 9
 https://github.com/dasGringuen/debian9-install
 (worked w/o most of the above for me!)
