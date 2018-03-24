@@ -57,9 +57,13 @@ https://stackoverflow.com/questions/39983947/tensorflow-delay-variable-over-trai
 https://stackoverflow.com/questions/38958737/tensorflow-training-got-stuck-after-some-steps-how-to-investigate
 https://stackoverflow.com/questions/48083474/finish-tensorflow-training-in-progress
 
-
+https://arxiv.org/pdf/1711.10433.pdf
+https://www.researchgate.net/publication/321347654_Parallel_WaveNet_Fast_High-Fidelity_Speech_Synthesis
 https://arxiv.org/abs/1711.10433
 https://arxiv.org/pdf/1712.05884.pdf
+https://www.reddit.com/r/MachineLearning/comments/7ev19q/r_highfidelity_speech_synthesis_with_wavenet/
+https://www.semanticscholar.org/paper/Parallel-WaveNet%3A-Fast-High-Fidelity-Speech-Oord-Li/2e80bc1b1710235ae4b6193e645904b2bc9d54ec
+https://www.youtube.com/watch?v=xTVwYFpK5Mo
 
 https://avdnoord.github.io/homepage/
 
@@ -69,6 +73,7 @@ https://deepmind.com/blog/high-fidelity-speech-synthesis-wavenet/
 https://www.reddit.com/r/MachineLearning/comments/7ev19q/r_highfidelity_speech_synthesis_with_wavenet/ 
 https://www.reddit.com/r/MachineLearning/comments/53ilcr/fast_wavenet_an_efficient_wavenet_generation/
 https://github.com/kensun0/Parallel-Wavenet
+https://github.com/kensun0/Parallel-Wavenet/blob/master/h512_bo16.py
 
 
 https://medium.com/@devinplatt/training-wavenet-with-tensorflow-on-aws-b0e2adeb204b
