@@ -1,10 +1,10 @@
 ################### GPU & NVIDIA stuff
 
-# MULTI GPY
+# MULTI GPU
 https://stackoverflow.com/questions/13781738/how-does-cuda-assign-device-ids-to-gpus/18696344#18696344
 
 
-
+https://www.kaggle.com/questions-and-answers/38385
 
 + debian 9
 https://github.com/dasGringuen/debian9-install
